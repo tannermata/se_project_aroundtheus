@@ -15,7 +15,7 @@ This standard of creating a beautiful layout is all to the BEM standards and add
   
 **GitHub**  
   
-* [GitHub Pages](tannermata.github.io)  
+* [GitHub Pages](https://tannermata.github.io/se_project_aroundtheus/)  
   
 **Images**  
 
