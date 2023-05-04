@@ -1,17 +1,13 @@
 .header {
     margin-top: 45px;
     padding-bottom: 45px;
-    border-bottom: #545454 1px solid;
-}
-
-@media screen and (max-width: 895px) {
-    .header__image {
-        margin-left: 27px;
-    }
+    border-bottom: 1px solid rgba(33%, 33%, 33%, 0.7);
 }
 
 @media screen and (max-width: 597px) {
     .header__image {
-        margin-left: 27px;
+        height: 24px;
+        width: 126px;
+        margin-left: 7px;
     }
 }

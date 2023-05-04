@@ -6,7 +6,6 @@
 
 .page__section {
     max-width: 880px;
-    min-width: 320px;
     width: 100%;
     position: relative;
     margin: 0 auto;
@@ -24,4 +23,3 @@
         max-width: calc(100% - 40px);
     }
 }
-

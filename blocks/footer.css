@@ -1,6 +1,6 @@
 .footer {
     color: #545454;
-    font-family: 'Inter-regular';
+    font-family: 'Inter';
     font-size: 18px;
     line-height: 22px;
     padding-top: 67px;
@@ -19,12 +19,9 @@
 
 @media screen and (max-width: 597px) {
     .footer {
-        max-width: 282px;
-    }
-
-    .footer__text {
-        padding-left: 15px;
-    }
-
-    
+        font-size: 14px;
+        line-height: 17px;
+        padding-top: 48px;
+        padding-bottom: 36px;
+    } 
 }
