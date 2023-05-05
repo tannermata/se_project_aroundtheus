@@ -108,13 +108,12 @@
     }
 
     .profile__title {
-        display: flex;
-        flex-wrap: wrap;
+        align-self: center;
+        font-size: 22px;
+        line-height: 27px;
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
-        font-size: 22px;
-        line-height: 27px;
     }
 
     .profile__description {
