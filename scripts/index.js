@@ -6,7 +6,6 @@ const initialCards = [
 {
     title: "Lake Louise",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/lake-louise.jpg",
-
 },
 {
     title: "Bald Mountains",
@@ -15,7 +14,6 @@ const initialCards = [
 {
     title: "Latemar",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/latemar.jpg",
-
 },
 {
     title: "Vanoise National Park",
@@ -26,5 +24,5 @@ const initialCards = [
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/lago.jpg",
 }
 ];
-
+ 
 console.log(initialCards);
