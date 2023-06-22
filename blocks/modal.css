@@ -1,0 +1,140 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 19px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+.modal__opened {
+    display: flex;
+}
+
+.modal__container {
+    position: relative;
+    width: 430px;
+    height: 330px;
+    flex-shrink: 0;
+    background-color: #fff;
+    color: black;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.modal__close {
+    position: absolute;
+    top: -45px;
+    right: -45px;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    cursor: pointer;
+    background-image: url(../images/Close\ Icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    transition: 1s ease;
+}
+
+.modal__close:hover {
+    opacity: 0.6;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+}
+
+.modal__heading {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    max-width: 330px;
+    height: 23px;
+    top: 229px;
+    left: 461px;
+    padding-bottom: 54px;
+    margin: 0;
+
+}
+
+.modal__input {
+    font-family: 'Inter', sans-serif;  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    height: 14px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 13px;
+    margin: 0;
+}
+ 
+.modal__input__underline {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    border-bottom: solid 1px #000;
+    margin-bottom: 30px;
+}
+
+.modal__button {
+    flex-shrink: 0;
+    justify-content: flex-end;
+    color: #fff;
+    max-width: 358px;
+    height: 50px;
+    margin-top: 18px;
+    padding: 0;
+    border: none;
+    border-radius: 2px;
+    background: #000;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.modal__button:hover {
+    opacity: 0.8;
+}
+
+
+@media screen and (max-width: 720px) {
+    .modal__close {
+        top: -45px;
+        right: 0px;
+        height: 26px;
+        width: 26px;
+    }
+
+    .modal__container {
+        width: 282px;
+        height: 322px;
+        flex-shrink: 0;
+    }
+
+    .modal__heading {
+        padding-bottom: 75px;
+    }
+
+    .modal__form {
+        padding: 25px 22px;
+    }
+
+    .modal__button {
+        margin-top: 15px;
+        height: 46px;
+    }
+
+    .modal__input__underline {
+        margin-bottom: 30px;
+    }
+}
