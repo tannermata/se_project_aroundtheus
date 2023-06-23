@@ -23,9 +23,9 @@
                     alt="Avatar"
                     class="profile__image"/>
                     <div class="profile__info">
-                        <h1 class="profile__title">Jacques Cousteau</h1>
+                        <h1 class="profile__title" id="profile-title">Jacques Cousteau</h1>
                         <button type="button" aria-label="Edit profile" class="profile__edit-button" id="profile-edit-button"></button>
-                        <p class="profile__description">Explorer</p>
+                        <p class="profile__description" id="profile-description">Explorer</p>
                     </div>
                     <button type="button" aria-label="Add new image" class="profile__add-button"></button>
                 </section>
@@ -101,7 +101,8 @@
                     <p class="modal__heading">Edit Profile</p>
                     <input
                     class="modal__input"
-                    name="name"
+                    name="title"
+                    id="profile-title-input"
                     placeholder="Name"
                     type="text"
                     />
@@ -109,6 +110,7 @@
                     <input
                     class="modal__input"
                     name="description"
+                    id="profile-description-input"
                     placeholder="Description"
                     type="text"
                     />
