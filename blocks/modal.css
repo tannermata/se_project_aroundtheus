@@ -10,7 +10,7 @@
     display: none;
 }
 
-.modal__opened {
+.modal_opened {
     display: flex;
 }
 
@@ -79,7 +79,7 @@
     margin: 0;
 }
  
-.modal__input__underline {
+.modal__input-underline {
     display: flex;
     flex-grow: 1;
     align-self: stretch;
