@@ -39,6 +39,18 @@
             </footer>
         </div>
 
+        <!--Preview Image Modal-->
+        <div class="modal" id="preview-image-modal">
+            <div class="modal__container_preview">
+              <img class="modal__image">
+              <p class="modalText"></p>
+              <button
+                class="modal__close"
+                id="previewCloseBtn"
+                type="button"></button>
+            </div>
+          </div>
+
         <!--Edit Profile Modal-->
         <div class="modal" id="profile-edit-modal">
             <div class="modal__container">
@@ -95,13 +107,14 @@
 
         <template id="card-template">
             <li class="card">
-                <img src=""
-                alt=""
-                class="card__image"/>
-                <div class="card__description">
-                    <h2 class="card__name"></h2>
-                    <button type="button" aria-label="Like button" class="card__like-button"></button>
-                </div>
+                    <button type="button" aria-label="delete button" class="card__delete-button"></button>
+                        <img src=""
+                        alt=""
+                        class="card__image"/>               
+                    <div class="card__description">
+                        <h2 class="card__name"></h2>
+                        <button type="button" aria-label="Like button" class="card__like-button"></button>
+                    </div>
             </li>
         </template>
 

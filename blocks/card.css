@@ -2,6 +2,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
+    position: relative;
     border-radius: 10px; 
 }
 
@@ -46,7 +47,28 @@
     transition: 1s ease;
 }
 
+.card__like-button_active {
+    background: transparent url(/images/heart-active.svg) center no-repeat;
+}
+
 .card__like-button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.card__delete-button {
+    display: flex;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    background: transparent url(../images/trash.svg) center no-repeat;
+    border: none;
+    height: 18px;
+    width: 19px;
+    transition: 1s ease;
+}
+
+.card__delete-button:hover {
     opacity: 0.5;
     cursor: pointer;
 }

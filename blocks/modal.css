@@ -1,5 +1,6 @@
 .modal {
     position: fixed;
+    flex-wrap: wrap;
     top: 0;
     bottom: 0;
     left: 0;
@@ -25,6 +26,21 @@
     border-radius: 10px;
 }
 
+.modal__container_preview {
+    position: relative;
+    max-width: 75vw;
+    max-height: 75vh;
+    background-color: transparent;
+    color: black;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.modal__image {
+    max-width: 75vw;
+    max-height: 75vh;
+}
+
 .modal__close {
     position: absolute;
     top: -45px;
@@ -48,6 +64,16 @@
     display: flex;
     flex-direction: column;
     padding: 36px;
+}
+
+.modalText {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0; 
 }
 
 .modal__heading {
