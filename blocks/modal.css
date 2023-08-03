@@ -30,7 +30,7 @@
     border-radius: 10px;
 }
 
-.modal__container_preview {
+.modal__preview-container {
     position: relative;
     max-width: 75vw;
     max-height: 75vh;
