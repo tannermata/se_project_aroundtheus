@@ -86,7 +86,6 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 30px;
-    max-width: 330px;
     height: 23px;
     top: 229px;
     left: 461px;
@@ -121,7 +120,6 @@
     flex-shrink: 0;
     justify-content: flex-end;
     color: #fff;
-    max-width: 358px;
     height: 50px;
     margin-top: 18px;
     padding: 0;

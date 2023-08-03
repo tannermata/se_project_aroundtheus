@@ -72,6 +72,11 @@ const initialCards = [
         const cardElement = getCardElement(cardData);
         wrapper.prepend(cardElement);
     }
+
+    function fillProfileForm() {
+        profileNameInput.value = profileName.textContent;
+        profileDescriptionInput.value = profileDescription.textContent;
+    }
     
     function getCardElement(cardData) {
         const cardElement = cardTemplate.cloneNode(true);
@@ -119,14 +124,14 @@ const initialCards = [
         const link = cardLinkInput.value;
         renderCard({name, link}, cardListElements);
         closeModal(addCardModal);
+        addCardForm.reset();
     }
     /* -------------------------------------------------------------------------- */
     /*                               Event Listeners                              */
     /* -------------------------------------------------------------------------- */
     
-    profileEditButton.addEventListener('click', () => { 
-        profileNameInput.value = profileName.textContent;
-        profileDescriptionInput.value = profileDescription.textContent;
+    profileEditButton.addEventListener('click', () => {
+        fillProfileForm();
         openModal(profileEditModal);
     });
 
